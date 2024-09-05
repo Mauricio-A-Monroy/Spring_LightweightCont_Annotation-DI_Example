@@ -24,5 +24,10 @@ Para ilustrar el uso del framework Spring, y el ambiente de desarrollo para el u
 		System.out.println(gc.check("la la la "));
 	}
 	```
+ ![image](https://github.com/user-attachments/assets/186914a3-e32a-4dc1-95ae-337db50f55a1)
+
 	
 6.	Modifique la configuración con anotaciones para que el Bean ‘GrammarChecker‘ ahora haga uso del  la clase SpanishSpellChecker (para que a GrammarChecker se le inyecte EnglishSpellChecker en lugar de  SpanishSpellChecker. Verifique el nuevo resultado.
+
+
+   ![image](https://github.com/user-attachments/assets/17d0ee68-4c90-4132-9bfe-6dc2eb5f3206)
